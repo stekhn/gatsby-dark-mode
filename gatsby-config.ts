@@ -2,14 +2,11 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Gatsby Dark Mode Demo`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: "Gatsby Dark Mode Demo",
+    siteUrl: "https://github.com/stekhn/gatsby-dark-mode",
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
-  graphqlTypegen: true,
-  plugins: ["gatsby-plugin-styled-components"]
+  graphqlTypegen: false,
+  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-use-dark-mode"],
 };
 
 export default config;
