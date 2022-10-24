@@ -16,7 +16,11 @@ const IndexPage = () => {
         <p>
           Changing between themes works fine in development, but once the the
           Gatsby application gets built, the custom component's dark styles
-          don't get applied when (re)loading the page.
+          don't get applied when (re)loading the page. You can check out a
+          deployed version of the page here:{" "}
+          <a href="https://stekhn.github.io/gatsby-dark-mode/">
+            https://stekhn.github.io/gatsby-dark-mode/
+          </a>
         </p>
         <Box>
           <p>
